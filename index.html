@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            width: 100%;
+            height: 90vh;
+            display: flex;
+            align-items: center;
+            /* по вертикали */
+            justify-content: space-evenly;
+            /* по горизонтали */
+            flex-wrap: wrap;
+        }
+
+        h2 {
+            background-color: orange;
+            margin: 10px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <h2>Перый заголовок <span>1234</span></h2>
+    <h2>Второй заголовок</h2>
+    <h2>Третий заголовок</h2>
+    <h2>4 заголовок</h2>
+
+    <h2>Перый заголовок <span>1234</span></h2>
+    <h2>Второй заголовок</h2>
+    <h2>Третий заголовок</h2>
+    <h2>4 заголовок</h2>
+
+    <h2>Перый заголовок <span>1234</span></h2>
+    <h2>Второй заголовок</h2>
+    <h2>Третий заголовок</h2>
+    <h2>4 заголовок</h2>
+
+    <script>
+
+        let q1 = 'Сколько тебе лет?'
+        let q2 = 'В каком городе ты живешь?'
+        let q3 = 'Твой любимый герой?'
+
+        let a1 = prompt(q1)
+        
+        if (a1 == '7'){
+            alert('Какой ты молодец!')
+        } else if (a1 == '8'){
+            alert('Ты еще больший молодец!')
+        }
+
+        let a2 = prompt(q2)
+        let a3 = prompt(q3)
+
+        alert('Тебе '+a1+' лет. Ты живешь в '+a2+' .Тебе нравится '+a3)
+
+    </script>
+
+</body>
+
+</html>
